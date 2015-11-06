@@ -132,7 +132,6 @@ public class Main {
                     return "";
                 })
         );
-
         Spark.post(
                 "/edit-item",
                 ((request, response) -> {
@@ -155,7 +154,6 @@ public class Main {
                     return "";
                 })
         );
-
         Spark.post(
                 "/delete-item",
                 ((request, response) -> {
