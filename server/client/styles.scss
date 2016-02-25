@@ -1,0 +1,97 @@
+@import "palette";
+
+html, body{
+  margin:0;
+  padding:0;
+  height: 100%;
+  background-color: $mediumGray;
+  color: $darkGray;
+  font-family: 'Arvo', serif;
+}
+
+header, footer{
+  background-color: $grayBlue;
+  color: $lightGray;
+  padding:10px;
+  h1,h3{
+    text-align: center;
+  }
+  img{
+    display: block;
+    margin: 5px auto;
+    width: 150px;
+  }
+  input{
+    display: inline-block;
+    color:$darkGray;
+  }
+}
+
+.larger{
+  height:350px;
+}
+.container-fluid{
+  padding-left: 0;
+}
+
+.hidden{
+  display: none;
+}
+
+.checkbox{
+  display: inline;
+}
+.menu{
+  background-color: $lightGray;
+  height:100%
+}
+h1{
+  padding:0;
+  margin:0;
+}
+.form-group, .dropdown{
+  width: 200px;
+  display: inline-block;
+}
+aside{
+  .dropdown, .checkbox, .btn, h3{
+    display: block;
+    margin:10px;
+    border-bottom: 2px solid $lightGray;
+    padding: 10px;
+    margin: 10px;
+
+  }
+}
+.submit{
+  width:100px;
+  display: inline-block;
+  background-color:$lightGray;
+}
+.menuItem{
+  background-color: white;
+  color:$darkGray;
+  border: 1px solid $lightGray;
+  border-radius:5px;
+  margin: 15px auto;
+  width: 800px;
+  padding:10px;
+  p{
+    float: right;
+    font-size:1.5em;
+    margin-top: 20px;
+  }
+  .glyphicon{
+    display: inline-block;
+    text-align: right;
+  }
+  h3{
+    width: 300px;
+    display: inline-block;
+  }
+  img{
+    width:40px;
+    margin-right:10px;
+    margin-top:-10px;
+  }
+}

@@ -1,3 +1,0 @@
-2015-11-05 17:33:22 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO MENU (NULL[*],?,?,?,?,?,?,?,?,?) "; expected "identifier"; SQL statement:
-INSERT INTO menu (NULL,?,?,?,?,?,?,?,?,?) [42001-190]
