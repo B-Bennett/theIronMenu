@@ -157,6 +157,7 @@ public class Main {
         Connection conn = DriverManager.getConnection("jdbc:h2:./main");
         createTable(conn);
 
+        //Spark.port(1234);
         Spark.externalStaticFileLocation("client");
         Spark.init();
 
