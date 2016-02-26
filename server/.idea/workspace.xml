@@ -7,43 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7b25c5a-fc55-4305-a9cc-766349e36817" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/h2-1.4.190.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/javax.servlet-api-3.1.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/jetty-http-9.3.2.v20150730.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/jetty-io-9.3.2.v20150730.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/jetty-security-9.3.2.v20150730.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/jetty-server-9.3.2.v20150730.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/jetty-servlet-9.3.2.v20150730.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/jetty-util-9.3.2.v20150730.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/jetty-webapp-9.3.2.v20150730.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/jetty-xml-9.3.2.v20150730.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/jodd-bean-3.6.6.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/jodd-core-3.6.6.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/jodd-json-3.6.6.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/junit-4.8.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/slf4j-api-1.7.12.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/slf4j-simple-1.7.12.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/spark-core-2.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/websocket-api-9.3.2.v20150730.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/websocket-client-9.3.2.v20150730.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/websocket-common-9.3.2.v20150730.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/websocket-server-9.3.2.v20150730.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/websocket-servlet-9.3.2.v20150730.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/theIronMenu.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server.jar" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server.jar" afterPath="$PROJECT_DIR$/../server.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/signin.js" afterPath="$PROJECT_DIR$/client/signin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.mv.db" afterPath="$PROJECT_DIR$/main.mv.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/theironyard/Main.java" afterPath="$PROJECT_DIR$/src/com/theironyard/Main.java" />
     </list>
     <ignored path="server.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -69,7 +35,7 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/theironyard/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.9738154">
+            <state vertical-scroll-proportion="2.9551122">
               <caret line="159" column="10" selection-start-line="159" selection-start-column="10" selection-end-line="159" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -802,7 +768,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456430275972</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Jar file to serve on Digital Ocean">
+      <created>1456517169895</created>
+      <option name="number" value="00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1456517169895</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TodoView">
@@ -870,7 +842,8 @@
     <MESSAGE value="INSERTED CRAZY FILTER METHOD!!!" />
     <MESSAGE value="fiddled with filter. Working well, including filtered by priceRange." />
     <MESSAGE value="Changed signin JS for demonstration use." />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed signin JS for demonstration use." />
+    <MESSAGE value="Jar file to serve on Digital Ocean" />
+    <option name="LAST_COMMIT_MESSAGE" value="Jar file to serve on Digital Ocean" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1180,7 +1153,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/theironyard/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.9738154">
+        <state vertical-scroll-proportion="2.9551122">
           <caret line="159" column="10" selection-start-line="159" selection-start-column="10" selection-end-line="159" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
